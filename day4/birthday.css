@@ -1,0 +1,69 @@
+@font-face {
+     font-family: BirthdayFont;
+     src: url(../fonts/HappyMonkey.ttf);
+}
+
+a {
+     color: hsl(184, 57%, 40%);
+     text-decoration: none;
+     font-weight: 600;
+}
+
+body {
+     font-family: BirthdayFont, Arial, cursive;
+     margin: 0;
+     padding: 0;
+}
+
+nav {
+     position: sticky;
+     top: 0;
+     
+     width: 100%;
+     height: 50px;
+
+     display: flex;
+     align-items: center;
+     background-color: #fff;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#birthday-container {
+     height: fit-content;
+     width: 100%;
+     background: linear-gradient(to bottom, #ffdddd);
+     background-repeat: no-repeat;
+
+}
+
+h1,
+h3,
+h4 {
+     text-align: center;
+     color: #222;
+}
+
+#nick {
+     width: 300px;
+     display: block;
+     margin: 0 auto;
+     border-radius: 50%;
+     border: 4px solid #222;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+#home {
+     width: 20px;
+     /* position: fixed;
+     top: 10px;
+     left: 10px; */
+}
+
+#home-link {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+     color: #222;
+     font-weight: 600;
+     text-decoration: none;
+}

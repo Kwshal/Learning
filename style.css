@@ -1,3 +1,8 @@
+@font-face {
+     font-family: "GodFather";
+     src: url(./fonts/TheGodfather.ttf);
+}
+
 * {
      box-sizing: border-box;
      color: #444;
@@ -11,15 +16,15 @@ body {
      margin: 0;
      padding: 20px;
 }
-
+hr {
+     border: none;
+     border-top: 1px solid #ccc;
+     margin: 20px 0;
+}
 a {
      color: hsl(184, 57%, 40%);
      text-decoration: none;
      font-weight: 600;
-}
-
-a:hover {
-     text-decoration: underline;
 }
 
 #cookie-accept {
@@ -129,3 +134,4 @@ a:hover {
 .dashed-border {
      border: 2px dashed #4a9ebe;
 }
+

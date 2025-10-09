@@ -16,7 +16,7 @@
     (the point of utility class is add it to any element and it will apply the style to that element. this is important because it makes the code more maintainable and reusable.)
 
  # inheritance:
-
+     someCSSProp: inherit;    // inherit the value of someProp from the parent element
 
 
 
@@ -24,3 +24,20 @@
  # Color palette websites:
      - https://colorhunt.co/
      - https://coolors.co/
+
+# Font websites:
+     - 1001fonts.com
+     - https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap
+(i imported the whole range of the weights of orbitron font.)
+
+# CSS property: 
+     @font-face {
+          font-family: 'Orbitron'; // or any cust name will do
+          src: url(<path>); <!--!  i used the downloaded local font which is at ./fonts/ -->
+          font-weight: normal;
+          font-style: normal;
+     }
+
+# webp (gif-like):
+  website for that: https://caniuse.com/webp
+  giphy: https://giphy.com/
