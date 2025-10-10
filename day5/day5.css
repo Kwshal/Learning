@@ -1,0 +1,22 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     color: #444;
+}
+a {
+     text-decoration: none;
+     color: oklch(60% 0.1 20);
+     font-weight: 600;
+     padding: 2px 0;
+}
+.underline {
+     border-bottom: 2px solid #444;
+}
+p, h2 {
+     margin: 10px;
+}
