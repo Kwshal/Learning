@@ -1,0 +1,51 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+#scoreboard {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2px;
+     
+}
+
+#guest, #home {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: fit-content;
+     width: 400px;
+     background-color: #eee;
+     font-family: sans-serif;
+     text-transform: uppercase;
+     font-weight: bolder;
+     font-size: 1.2em;
+     padding: 10px;
+     border-radius: 10px;
+     gap: 10px;
+}
+#score-guest, #score-home {
+     height: fit-content;
+     aspect-ratio: 1.2;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     font-size: 3em;
+     padding: 30px;
+     background-color: #fff;
+}
+#btn-container {
+     display: flex;
+     gap: 5px;
+}
+.increment {
+     background-color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+}

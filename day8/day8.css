@@ -1,0 +1,39 @@
+#counter-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+     border: 1px solid #000;
+     width: fit-content;
+     align-self: center;
+     padding: 10px;
+     background-image: url(../images/universe.jpg);
+     background-size: cover;
+     color: #fff;
+}
+
+#count-title {
+     font-size: 2em;
+     font-weight: bold;
+}
+#count {
+     font-size: 4em;
+     font-weight: bold;
+}
+#increment-btn, #save {
+     width: 70%;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+}
+/* color the buttons */
+#increment-btn {
+     background-color: #4CAF50;
+     color: white;
+}
+#save {
+     background-color: #008CBA;
+     color: white;
+}
+

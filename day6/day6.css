@@ -1,0 +1,135 @@
+:root {
+    /* Backgrounds */
+    --bg-dark: #12111f;       /* very deep indigo-black */
+    --bg-card: #1a1a2b;       /* near-night navy */
+    --bg-panel: #161627;      /* dark slate with subtle warmth */
+
+    /* Text */
+    --text-primary: silver;  /* soft off-white */
+    --text-secondary: #9a9ab0;/* muted lavender-grey */
+
+    /* Accents / Highlights */
+    --accent-blue: #3b5f87;   /* deep steel blue */
+    --accent-purple: #6b4bb0; /* dark muted violet */
+    --accent-orange: #c5703a; /* deep burnt orange */
+
+    /* Buttons / UI elements */
+    --btn-bg: #2b2b42;        /* deep desaturated midnight blue */
+    --btn-hover: #434362;     /* slightly lighter midnight */
+}
+
+img {
+     max-width: 100%;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: Arial, sans-serif;
+     background-color: var(--bg-panel);
+     color: var(--text-primary);
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+     align-items: center;
+     justify-content: center;
+}
+
+#home-link {
+     position: fixed;
+     top: 5px;
+     left: 5%;
+     display: flex;
+     align-items: center;
+     mix-blend-mode: difference;
+     padding: 10px;
+     border-radius: 50px;
+}
+#home-link a {
+     text-decoration: none;
+     color: var(--text-primary);
+     font-weight: bold;
+}
+
+section {
+     width: 100%;
+     padding: 20px;
+     display: flex;
+     align-self: center;
+     justify-content: center;
+}
+
+/* hero section */
+#hero-section {
+     background-color: var(--bg-dark);
+     color: var(--text-primary);
+     text-align: center;
+     padding: 50px;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+}
+
+
+#visit-btn {
+     background-color: var(--btn-bg);
+     color: var(--text-primary);
+     padding: 10px 20px;
+     font-size: large;
+     letter-spacing: 1px;
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     width: fit-content;
+}
+
+#visit-btn:hover {
+     background-color: var(--btn-hover);
+}
+
+/* behold-section */
+#behold-section {
+     width: 100%;
+     background-color: var(--bg-card);
+     color: var(--text-primary);
+     text-align: center;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.cards-container {
+     width: fit-content;
+     display: flex;
+     justify-self: start;
+     align-items: center;
+     gap: 10px;
+     overflow-x: scroll;
+     scrollbar-width: none;
+     margin: 0 auto;
+}
+
+.card {
+     flex: 0 0 300px;
+     background-color: var(--bg-card);
+     color: var(--text-primary);
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px;
+     gap: 10px;
+}
+
+.card img {
+     width: 100%;
+     height: auto;
+}
+
+#nick-img {
+     width: 400px;
+}
