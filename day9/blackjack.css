@@ -1,0 +1,24 @@
+@font-face {
+     font-family: PlayfairDisplay;
+     src: url(../fonts/PlayfairDisplay.ttf);
+}
+body {
+     font-family: PlayfairDisplay;
+}
+p:has(a) {
+     text-align: left;
+}
+h1 {
+     color: #666;
+     text-align: center;
+     margin-top: 20px;
+     font-size: 2em;
+     text-transform: uppercase;
+}
+button {
+     font-family: inherit;
+}
+#blackjack-container {
+     margin: 0 auto;
+     max-width: 400px;
+}

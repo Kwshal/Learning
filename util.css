@@ -1,16 +1,5 @@
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-}
 body {
      font-family: sans-serif;
-}
-.h-full {
-     height: 100%;
-}
-.h-screen {
-     height: 100vh;
 }
 .col {
      display: flex;
@@ -39,14 +28,6 @@ body {
      align-items: center;
 }
 
-a {
-     text-decoration: none;
-     color: #000000;
-     font-size: 20px;
-     font-weight: bold;
-     font-family: sans-serif;
-}
-
 button {
      border: solid 1px #000000;
      background-color: #ffffff;
@@ -59,4 +40,9 @@ button {
      /* increase the underline thickness and distance */
      text-underline-offset: 8px;
      text-decoration-thickness: 2px;
+}
+a {
+     color: hsl(184, 57%, 40%);
+     text-decoration: none;
+     font-weight: 600;
 }

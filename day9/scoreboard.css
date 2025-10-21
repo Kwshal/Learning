@@ -1,3 +1,8 @@
+@font-face {
+     font-family: digital-dismay;
+     src: url(../fonts/Digital\ Dismay.otf);
+}
+
 * {
      margin: 0;
      padding: 0;
@@ -17,8 +22,8 @@
      flex-direction: column;
      align-items: center;
      height: fit-content;
-     width: 400px;
-     background-color: #eee;
+     width: fit-content;
+     background-color: #777583;
      font-family: sans-serif;
      text-transform: uppercase;
      font-weight: bolder;
@@ -26,17 +31,24 @@
      padding: 10px;
      border-radius: 10px;
      gap: 10px;
+     
+}
+.score-header {
+     color: #000;
+     font-size: 1.5em;
 }
 #score-guest, #score-home {
      height: fit-content;
-     aspect-ratio: 1.2;
+     width: 80%;
      display: flex;
      justify-content: center;
      align-items: center;
      border-radius: 10px;
      font-size: 3em;
-     padding: 30px;
-     background-color: #fff;
+     padding: 10px 60px;
+     background-color: #2e2d33;
+     color: #fff;
+     font-family: digital-dismay;
 }
 #btn-container {
      display: flex;
@@ -44,8 +56,11 @@
 }
 .increment {
      background-color: #fff;
-     padding: 10px 20px;
+     color: #2e2d33;
+     padding: 10px;
      border: none;
      border-radius: 5px;
      cursor: pointer;
+     font-weight: bold;
+     font-family: digital-dismay;
 }

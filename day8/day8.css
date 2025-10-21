@@ -9,14 +9,15 @@
      padding: 10px;
      background-image: url(../images/universe.jpg);
      background-size: cover;
-     color: #fff;
 }
 
 #count-title {
+     color: #fff;
      font-size: 2em;
      font-weight: bold;
 }
 #count {
+     color: #fff;
      font-size: 4em;
      font-weight: bold;
 }
