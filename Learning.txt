@@ -33,7 +33,12 @@
   website for that: https://caniuse.com/webp
   giphy: https://giphy.com/
 # 1rem = 16px
-# used :hover pseudo class for effects for the first time.
+# used :hover pseudo class for side effects for the first time.
 # element with bgdrop-filter and transparent+white+transparent background looks cool
 
 # shift(), unshift(value), push(value), pop() // arrays
+# localStorage,
+   getItem(key), setItem(key, value),
+   removeItem(key), clear(),
+   key(index), length, 
+   JSON.parse(JSON.stringify(arr)), JSON.stringify(arr), JSON.parse(str)
