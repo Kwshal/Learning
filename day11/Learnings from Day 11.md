@@ -1,4 +1,12 @@
-let vs const
+# let vs const
+(default to const whenever possible)
 
-let is a variable that can be changed
-const is a variable that cannot be changed
+# !! Parameters vs arguments
+(Parameters: variables in function declaration, arguments: values passed to the function)
+
+# localstorage
+  - getItem(key), setItem(key, value),
+  - removeItem(key), clear(), key(index), length,
+  - JSON.parse(), JSON.stringify(arr), JSON.parse(str)
+
+  

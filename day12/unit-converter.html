@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Unit Converter</title>
+     <link rel="stylesheet" href="./unit-converter.css">
+     <link rel="stylesheet" href="../util.css">
+</head>
+
+<body>
+     <p><a id="home-link" href="./day12.html">Back</a></p>
+     <main>
+          <section id="input-section">
+               <h1 id="title">Metric/Imperical Unit Conversion</h1>
+               <input type="number" id="input-el" placeholder="Enter a value">
+               <button id="convert-btn">Convert</button>
+          </section>
+          <section id="output-section">
+               <div class="unit-container" id="length-container">
+                    <h3>Length (Meter/Feet)</h3>
+                    <p class="unit-el" id="length-el">0</p>
+               </div>
+               <div class="unit-container" id="volume-container">
+                    <h3>Volume (Liter/Gallon)</h3>
+                    <p class="unit-el" id="volume-el">0</p>
+               </div>
+               <div class="unit-container" id="mass-container">
+                    <h3>Mass (Kilogram/Pound)</h3>
+                    <p class="unit-el" id="mass-el">0</p>
+               </div>
+          </section>
+     </main>
+
+     <script src="./unit-converter.js"></script>
+</body>
+
+</html>

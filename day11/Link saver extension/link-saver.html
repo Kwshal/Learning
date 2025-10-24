@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Link Saver</title>
+     <link rel="manifest" href="./manifest.json">
+     <link rel="icon" href="./icon.svg" type="image/svg+xml">
+     <style>
+          * {
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+               font-family: monospace;
+          }
+
+          body {
+               min-width: fit-content;
+               width: 350px;
+
+               background-color: transparent;
+          }
+
+          #home-link {
+               text-decoration: none;
+               color: #333;
+               font-size: 18px;
+               margin-bottom: 20px;
+               display: inline-block;
+          }
+
+          a {
+               color: hsl(184, 57%, 40%);
+               text-decoration: none;
+               font-weight: 600;
+          }
+
+
+          #extension-container {
+               width: 100%;
+               /* margin: auto; */
+               background-color: #f2f2f2;
+               padding: 15px;
+               border: 1px solid #eee;
+               display: flex;
+               flex-direction: column;
+               align-items: flex-start;
+               gap: 10px;
+               border-radius: 8px;
+          }
+
+          #input-el {
+               width: 100%;
+               padding: 5px 10px;
+               box-sizing: border-box;
+               color: #444;
+               border: 1px solid #444;
+               border-radius: 4px;
+               font-size: 1.5em;
+               background-color: #f2f2f2;
+               outline: none;
+          }
+
+          #btn-wrapper {
+               width: 100%;
+               display: flex;
+               gap: 10px;
+          }
+
+          #save-input-btn,
+          #save-tab-btn {
+               width: 40%;
+               background-color: #444;
+               border: none;
+               color: #f2f2f2;
+               padding: 10px 15px;
+               border-radius: 4px;
+          }
+
+          #save-input-btn:hover,
+          #save-tab-btn:hover {
+               background-color: #666;
+               cursor: pointer;
+          }
+
+          ul {
+               padding: 0 20px;
+               color: #444;
+               display: none;
+               font-size: 1.2em;
+               text-align: left;
+          }
+
+          ul li {
+               overflow-wrap: break-word;
+               word-break: break-all;
+          }
+
+          ul:has(li) {
+               display: block;
+          }
+
+          #delete-btn {
+               background-color: transparent;
+               border: 1px solid #f88;
+               color: #f88;
+               margin: 0;
+               border-radius: 4px;
+               /* display: none; */
+               align-self: flex-end;
+               padding: 3px 7px;
+               cursor: pointer;
+          }
+
+          ul:has(li)+#delete-btn {
+               display: inline;
+          }
+     </style>
+</head>
+
+<body>
+     <div id="extension-container" draggable="true">
+          <input id="input-el" placeholder="Enter link here">
+          <div id="btn-wrapper">
+               <button id="save-input-btn">Save Input</button>
+               <button id="save-tab-btn">Save Tab</button>
+               <button id="delete-btn">Delete All</button>
+          </div>
+          <h4># Saved links show here</h4>
+          <ul id="ul-el">
+          </ul>
+     </div>
+     <script src="./link-saver.js"></script>
+</body>
+
+</html>
