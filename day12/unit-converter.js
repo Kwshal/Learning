@@ -16,7 +16,7 @@ convertBtn.addEventListener('click', () => {
      const liters = inputValue / 0.264172;
      const kilograms = inputValue / 2.20462;
 
-     lengthEl.textContent = `${inputValue} meters = ${feet.toFixed(3)} feet | ${inputValue} feet = ${meters.toFixed(3)} meters`;
-     volumeEl.textContent = `${inputValue} liters = ${gallons.toFixed(3)} gallons | ${inputValue} gallons = ${liters.toFixed(3)} liters`;
-     massEl.textContent = `${inputValue} kilograms = ${pounds.toFixed(3)} pounds | ${inputValue} pounds = ${kilograms.toFixed(3)} kilograms`;
+     lengthEl.innerHTML = `${inputValue} meters = ${feet.toFixed(3)} feet <br> ${inputValue} feet = ${meters.toFixed(3)} meters`;
+     volumeEl.innerHTML = `${inputValue} liters = ${gallons.toFixed(3)} gallons <br> ${inputValue} gallons = ${liters.toFixed(3)} liters`;
+     massEl.innerHTML = `${inputValue} kilograms = ${pounds.toFixed(3)} pounds <br> ${inputValue} pounds = ${kilograms.toFixed(3)} kilograms`;
 });

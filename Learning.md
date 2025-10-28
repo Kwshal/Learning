@@ -78,3 +78,8 @@ little gotcha: if the parent has a font-size of 2em (32px) then setting its chil
     parameters: variables that are defined in the function declaration
     arguments: values that are passed to the function when it is called
           (first time I'm knowing this difference)
+
+
+# Oklab:
+     - https://oklch.github.io/oklch/
+     its a color model. its far better than RGB or hex.
