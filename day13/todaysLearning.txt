@@ -1,0 +1,6 @@
+Github Desktop for committing and pushing changes
+pull requests via feature branches
+merge conflicts resolution
+SSH keys X
+Updating the local repo by pulling changes from the remote repo or origin
+md stands for markdown.

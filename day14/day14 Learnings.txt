@@ -1,0 +1,4 @@
+- complex ternary operator
+- switch statement
+- When NOT to use switch
+- object destructuring for DRYer code
