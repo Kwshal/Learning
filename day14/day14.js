@@ -1,3 +1,7 @@
+import someFunction from "./someFunction";
+
+someFunction();
+
 // ? ternary operator
 
 // complex ternary operator with nested ternary operator

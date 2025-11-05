@@ -2,3 +2,4 @@
 - switch statement
 - When NOT to use switch
 - object destructuring for DRYer code
+- import and export (see day14.js)
