@@ -61,7 +61,17 @@ little gotcha: if the parent has a font-size of 2em (32px) then setting its chil
 
 # :has(),
 
-# :where() & :is()
+# :where() vs :is():
+     - :where() is more general than :is()
+     - :is() is more specific than :where()
+     - :is() is more readable than :where()
+     examples:
+          - p:is(:hover, .some-class)
+          - p:where(:hover, .some-class)
+          - p:has(:hover, .some-class)
+          - p:where(:hover, .some-class)
+          - p:is(:hover, .some-class)
+
 
 
 # element with bgdrop-filter and transparent+white+transparent background looked cool
@@ -79,7 +89,29 @@ little gotcha: if the parent has a font-size of 2em (32px) then setting its chil
     arguments: values that are passed to the function when it is called
           (first time I'm knowing this difference)
 
-
 # Oklab:
      - https://oklch.github.io/oklch/
-     its a color model. its far better than RGB or hex.
+     its a color model. better than RGB or hex.
+     (its harder)
+
+# Ternary operator:
+     condition ? true : false
+     condition ? this : condition ? this : that
+     et.
+
+# switch statement:
+
+# object destructuring:
+     const person = {
+          name: 'John',
+          age: 30,
+          gender: 'male'
+     }
+     const { name, age, gender = 'unknown' } = person;
+     console.log(`name: ${name}, age: ${age}, gender: ${gender}`);
+
+# The Error Constructor:
+     new Error(message, filename, lineno, colno, error)
+
+# numeric separators:
+     1_000_000 === 1000000 // true

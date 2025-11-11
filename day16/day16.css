@@ -1,0 +1,20 @@
+body {
+     font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#labels-container {
+     width: 100%;
+     gap: 10px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     /* center the items */
+     /* justify-items: center;      */
+}
+.label-card {
+     max-width: 400px;
+     margin: 0 auto;
+     background-color: #f9f9f9;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
