@@ -4,7 +4,13 @@
 //? Object() - used to create objects. not recommended. use {} instead.
 //? Array() - used to create arrays. not recommended. use [] instead.
 //? String() - used to create strings. not recommended. use "" instead.
+
+let str = new String("hello");
+let a = "ghgf"
 //? Date() - used to create date objects. 
+
+let date = new Date();
+console.log(date);
 
 // doesnt require the keyword new
 //? Math() - used to perform mathematical operations. example: Math.floor()
