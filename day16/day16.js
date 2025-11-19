@@ -21,3 +21,20 @@ const text = "Thank you for all your hard work throughout the year! 🎁"
 const sender = "Kushal Mathuria";
 
 labelsConatainer.innerHTML = getLabelHTML(text, sender, 'Kushal Mathuria', 'Mom', 'Dad', 'Brother')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

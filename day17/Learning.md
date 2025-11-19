@@ -1,0 +1,22 @@
+---
+
+- Functions expressions:
+     define: a function that is defined as a variable
+     example: const sum = function(a, b) { return a + b };
+
+- Arrow functions:
+     define: a way to write functions in a shorter and more concise way
+     example: const sum = (a, b) => a + b;
+
+- Default parameters:
+     define: set a default value for a parameter
+     example: function sum(a = 0, b = 0) { return a + b };
+     
+- Callback functions:
+     define: a function that is passed as an argument to another function
+     example: function solve(a, b, callback) { callback(a + b) };
+              
+
+- The Rest parameter:
+     define: a parameter that allows you to pass an arbitrary number of arguments to a function
+     example: function sum(...nums) { return nums.reduce((acc, num) => acc + num, 0) };`

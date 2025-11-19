@@ -1,2 +1,2 @@
 cmd to create the repetitive:
-   mkdir day17 && cd day17 && touch day17.html day17.css day17.js
+   mkdir day20 && cd day20 && touch day20.html day20.css day20.js

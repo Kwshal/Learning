@@ -115,3 +115,8 @@ little gotcha: if the parent has a font-size of 2em (32px) then setting its chil
 
 # numeric separators:
      1_000_000 === 1000000 // true
+
+# async/await:
+     `async` function is a function that returns a Promise.
+     await keyword is used to wait for a Promise to resolve.
+     await keyword can be used inside a loop to wait for a Promise to resolve.
